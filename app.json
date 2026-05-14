@@ -1,6 +1,5 @@
 {
   "expo": {
-<<<<<<< HEAD
     "name": "NightGuardFinal",
     "slug": "NightGuardFinal",
     "version": "1.0.0",
@@ -11,19 +10,6 @@
     "newArchEnabled": true,
     "ios": {
       "supportsTablet": true
-=======
-    "name": "safety-app",
-    "slug": "safety-app",
-    "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
-    "scheme": "safetyapp",
-    "userInterfaceStyle": "automatic",
-    "newArchEnabled": true,
-    "ios": {
-      "supportsTablet": true,
-      "bundleIdentifier": "com.anonymous.safetyapp"
->>>>>>> 9934efeb7d49e2dd820077d9eca4cb94479fd15e
     },
     "android": {
       "adaptiveIcon": {
@@ -33,12 +19,8 @@
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
       "edgeToEdgeEnabled": true,
-<<<<<<< HEAD
-      "predictiveBackGestureEnabled": false
-=======
       "predictiveBackGestureEnabled": false,
-      "package": "com.anonymous.safetyapp"
->>>>>>> 9934efeb7d49e2dd820077d9eca4cb94479fd15e
+      "package": "com.anonymous.nightguardfinal"
     },
     "web": {
       "output": "static",
@@ -46,22 +28,10 @@
     },
     "plugins": [
       "expo-router",
-      [
-        "expo-splash-screen",
-        {
-          "image": "./assets/images/splash-icon.png",
-          "imageWidth": 200,
-          "resizeMode": "contain",
-          "backgroundColor": "#ffffff",
-          "dark": {
-            "backgroundColor": "#000000"
-          }
-        }
-      ]
+      "expo-sharing"
     ],
     "experiments": {
-      "typedRoutes": true,
-      "reactCompiler": true
+      "typedRoutes": true
     }
   }
 }
